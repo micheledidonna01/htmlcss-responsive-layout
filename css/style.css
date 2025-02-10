@@ -11,7 +11,49 @@ main, footer{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
+.c-gray{
+    color:#999999;
+}
 
+.c-violet{
+    color:#4E3969;
+}
+
+.fs-12{
+    font-size:12px;
+}
+
+.fs-17{
+    font-size:17px;
+}
+
+.fs-22{
+    font-size:22px;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.d-none{
+    display:none;
+}
+
+.d-inline-block{
+    display:inline-block;
+}
+
+.mr-130{
+    margin-right:130px;
+}
+
+.mb-28{
+    margin-bottom:28px;
+}
 /***************
 MOBILE FIRST
 ***************/
@@ -37,6 +79,73 @@ h1{
 /****
 CORPO
 ****/
+main{
+    padding:26px 30px 75px;
+    background-color:#F6F5F3;
+}
+
+/*First section*/
+main section > p{
+    margin-bottom:22px;
+}
+main section .container{
+    margin-top:33px;
+    flex-direction:column;
+    background-color:#FFFFFFFF;
+    box-shadow:2px 0 4px 1px gray;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+main section .container .image img{
+    max-width:100%;
+}
+
+main section .container .preparazione{
+    padding:0 40px 60px;
+}
+
+main section .container .preparazione h3{
+    padding:45px 0 50px;
+}
+
+main section .container .preparazione .info{
+    display:flex;
+    flex-direction:column;
+}
+
+main section .icons{
+    justify-content:space-between;
+    padding: 38px 0 47px;
+}
+
+main section .icons .icon{
+    background-color:#FFFFFF;
+    padding:12px 18px;
+    border-radius:20px;
+    box-shadow:2px 0 4px 1px gray;
+}
+
+main section .icon:first-child{
+    color:#1977F3;
+}
+
+main section .icon:nth-child(2){
+    color:#009EFF;
+}
+
+main section .icon:nth-child(3){
+    color:#DC3D97;
+}
+
+main section .icon:nth-child(4){
+    color:#E72222;
+}
+
+main section .icon:last-child{
+    color:#E72222;
+}
+/*/First section*/
 
 /****
 PIEDE
@@ -48,7 +157,7 @@ TABLET
 ***************/
 
 @media screen and (min-width:768px){
-    
+
 /****
 INTESTAZIONE
 ****/
@@ -64,6 +173,7 @@ h1{
 /****
 CORPO
 ****/
+
 
 /****
 PIEDE
@@ -82,5 +192,17 @@ DESKTOP
 ***************/
 
 @media screen and (min-width:992px){
+
+/****
+INTESTAZIONE
+****/
+
+/****
+CORPO
+****/
+
+/****
+PIEDE
+****/
 
 }
