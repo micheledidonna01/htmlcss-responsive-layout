@@ -98,7 +98,7 @@ main section .container{
 }
 
 main section .container .image img{
-    max-width:100%;
+    width:100%;
 }
 
 main section .container .preparazione{
@@ -225,6 +225,41 @@ INTESTAZIONE
 /****
 CORPO
 ****/
+
+/*First section*/
+main section .container{
+    flex-direction:row;
+    flex-wrap:no-wrap;
+}
+
+main section .container .image{
+    width:70%;
+}
+
+main section .container .preparazione{
+    width:30%;
+    padding:0 40px 60px;
+}
+
+main section .container .preparazione .info{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:no-wrap;
+}
+main section .container .preparazione .info > p{
+    width:100%;
+}
+
+main section .icons .icon{
+    text-decoration:none;
+    font-weight:bold;
+}
+main section .icons .d-none{
+    display:inline;
+    color:#000000;
+}
+/*/First section*/
+
 
 /****
 PIEDE
