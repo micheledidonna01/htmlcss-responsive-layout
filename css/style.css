@@ -121,7 +121,7 @@ main section .icons{
 
 main section .icons .icon{
     background-color:#FFFFFF;
-    padding:12px 18px;
+    padding:8px 12px;
     border-radius:20px;
     box-shadow:2px 0 4px 1px gray;
     border:1px solid #FFFFFF;
@@ -247,7 +247,7 @@ main section .container .preparazione .info > p{
 }
 
 main section .icons .icon{
-    padding:15px 50px;
+    padding:15px 30px;
 }
 /*/First section*/
 
