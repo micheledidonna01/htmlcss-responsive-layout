@@ -148,6 +148,18 @@ main section .icon:last-child{
 }
 /*/First section*/
 
+
+/*Second section*/
+
+main .second-section{
+    margin-bottom:50px;
+}
+
+main .second-section img{
+    width:100%;
+}
+/*/Second section*/
+
 /****
 PIEDE
 ****/
@@ -199,6 +211,12 @@ main section .icons .icon{
 }
 /*/First section*/
 
+/*Second section*/
+
+main .second-section{
+    display:block;
+}
+/*/Second section*/
 
 /****
 PIEDE
@@ -259,6 +277,7 @@ main section .icons .d-none{
     color:#000000;
 }
 /*/First section*/
+
 
 
 /****
