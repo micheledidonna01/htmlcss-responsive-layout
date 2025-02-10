@@ -48,11 +48,18 @@ TABLET
 ***************/
 
 @media screen and (min-width:768px){
+    
 /****
 INTESTAZIONE
 ****/
 
+header{
+    text-align:left;
+}
 
+h1{
+    padding:0 26px;
+}
 
 /****
 CORPO
