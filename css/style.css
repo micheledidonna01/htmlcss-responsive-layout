@@ -342,4 +342,16 @@ main section .paragraph p{
 PIEDE
 ****/
 
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+footer .copyright p:last-child{
+    margin:0;
+}
+
 }
