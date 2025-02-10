@@ -7,3 +7,73 @@ COMMAND
     box-sizing: border-box;
 }
 
+main, footer{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+
+/***************
+MOBILE FIRST
+***************/
+
+/****
+INTESTAZIONE
+****/
+
+header{
+    font-family: 'Nerko One', cursive;
+    text-align:center;
+    padding:25px 0;
+    background-color:#FFFFFF;
+    text-shadow: 0 2px 5px gray;
+}
+
+h1{
+    color:#FF9613;
+    font-weight:bold;
+    font-size:35px;
+}
+
+/****
+CORPO
+****/
+
+/****
+PIEDE
+****/
+
+
+/***************
+TABLET
+***************/
+
+@media screen and (min-width:768px){
+/****
+INTESTAZIONE
+****/
+
+
+
+/****
+CORPO
+****/
+
+/****
+PIEDE
+****/
+}
+
+
+
+
+
+
+
+
+/***************
+DESKTOP
+***************/
+
+@media screen and (min-width:992px){
+
+}
