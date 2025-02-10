@@ -124,6 +124,7 @@ main section .icons .icon{
     padding:12px 18px;
     border-radius:20px;
     box-shadow:2px 0 4px 1px gray;
+    border:1px solid #FFFFFF;
 }
 
 main section .icon:first-child{
@@ -173,6 +174,30 @@ h1{
 /****
 CORPO
 ****/
+
+/*First section*/
+
+main{
+    padding:66px 63px 113px;
+}
+
+main section h2 .d-none{
+    display:inline;
+}
+
+main section .container .preparazione .info{
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+main section .container .preparazione .info > p{
+    width:calc((100% - 260px)/3);
+}
+
+main section .icons .icon{
+    padding:15px 50px;
+}
+/*/First section*/
 
 
 /****
