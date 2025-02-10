@@ -160,6 +160,28 @@ main .second-section img{
 }
 /*/Second section*/
 
+/*Third section*/
+
+main section .hr{
+    width:30%;
+    height:2px;
+    margin:22px 0 38px;
+    background-color:#F7972D;
+}
+main section .paragraph .image2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+main section .paragraph .image2 img{
+    width:60%;
+}
+
+main section .paragraph p{
+    line-height:30px;
+}
+/*/Third section*/
+
 /****
 PIEDE
 ****/
@@ -218,6 +240,20 @@ main .second-section{
 }
 /*/Second section*/
 
+
+/*Third section*/
+
+main section .paragraph .image2{
+    text-align:left;
+    margin-bottom:0;
+}
+
+main section .paragraph .image2 img{
+    width:30%;
+    float:left;
+    margin:0 5px 5px 0;
+}
+/*/Third section*/
 /****
 PIEDE
 ****/
@@ -278,7 +314,11 @@ main section .icons .d-none{
 }
 /*/First section*/
 
-
+/*Third section*/
+main section .paragraph p{
+    line-height:40px;
+}
+/*/Third section*/
 
 /****
 PIEDE
