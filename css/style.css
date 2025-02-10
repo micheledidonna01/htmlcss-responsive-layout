@@ -185,7 +185,25 @@ main section .paragraph p{
 /****
 PIEDE
 ****/
-
+footer{
+    text-align:center;
+    background-color:#7C69A4;
+    color:#FFFFFF;
+    padding:30px 0 38px;
+}
+footer .copyright p:last-child{
+    margin:18px 0 22px;
+}
+footer .help{
+    list-style-type:none;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:27px;
+}
+footer .help li a{
+    text-decoration:underline;
+    color:#FFFFFF;
+}
 
 /***************
 TABLET
